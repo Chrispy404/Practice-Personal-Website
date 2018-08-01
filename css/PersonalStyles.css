@@ -1,0 +1,85 @@
+
+/*Reset to prevent brower specific paddings and margins*/
+* {
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box;
+}
+
+.topnav {
+	width: 100%;
+	margin: 0; 
+	padding: 1em;
+	box-sizing: content-box;
+	overflow: hidden;
+	text-align: center;
+}
+
+.topnav a {
+    float: center;
+    color: #caccce;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    /*background-color: #dedee2;*/
+    color: #313138;
+    transition: color .4s;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: #313138;
+}
+
+.main {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+    background-position: center 50%;
+	min-height: 400px;
+	line-height: 400px; 
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.main .main-text {
+	display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding: .5em;
+    color: #fff;
+}
+
+.ContactDetails {
+	padding: 3em 0;
+	background-color: #313138;
+	margin-top: 15px;
+	color: white;
+    width: 100%;
+    float: left;
+    text-align: center;
+} 
+
+#socials a {
+	color: #caccce;
+}
+
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
