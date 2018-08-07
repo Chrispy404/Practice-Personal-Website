@@ -17,7 +17,7 @@
 
 .topnav a {
     float: center;
-    color: #caccce;
+	color: #313138;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,13 +27,13 @@
 /* Change the color of links on hover */
 .topnav a:hover {
     /*background-color: #dedee2;*/
-    color: #313138;
+    color: #929292;
     transition: color .4s;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    color: #313138;
+    color: #929292;
 }
 
 .main {
@@ -42,17 +42,29 @@
     background-position: center 50%;
 	min-height: 400px;
 	line-height: 400px; 
+}
+
+.main, .about {
 	text-align: center;
 	vertical-align: middle;
 	width: 100%;
 }
 
-.main .main-text {
+.main .main-text, .about .about-text {
+	width: 66%;
 	display: inline-block;
     vertical-align: middle;
     line-height: normal;
     padding: .5em;
-    color: #fff;
+}
+
+.main .main-text {
+	color: #fff;
+}
+
+.about .about-text p {
+	font-size: 18px;
+	font-weight: 300;
 }
 
 .ContactDetails {
