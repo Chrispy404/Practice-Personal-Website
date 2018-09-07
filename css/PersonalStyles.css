@@ -8,8 +8,7 @@
 
 .topnav {
 	width: 100%;
-	margin: 0; 
-	padding: 1em;
+	padding-bottom: 10px;
 	box-sizing: content-box;
 	overflow: hidden;
 	text-align: center;
@@ -77,13 +76,14 @@
 	background-size: cover;
     background-position: center 50%;
 	min-height: 400px;
-	line-height: 400px; 
+    line-height: 400px; 
+    overflow: hidden;
 }
 
 .main, .info-Block {
 	text-align: center;
 	vertical-align: middle;
-    width: 100%;
+    overflow:hidden;
 }
 
 .main .main-text, .info-Block-Text {
@@ -91,7 +91,7 @@
 	display: inline-block;
     vertical-align: middle;
     line-height: normal;
-    padding: 1.5%;
+    overflow: hidden;
 }
 
 /* increase width of info block on mobile */
@@ -110,12 +110,12 @@
 	font-weight: 300;
 }
 .ContactDetails {
-	padding: 3em 0;
+	padding: 3em 0em;
 	background-color: #313138;
 	margin-top: 15px;
-	color: white;
+    color: white;
     width: 100%;
-    float: left;
+    overflow: hidden;
     text-align: center;
 } 
 
@@ -139,22 +139,11 @@ body{
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 
 /* Straight stolen from bootstrap */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
