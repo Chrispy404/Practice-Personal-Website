@@ -24,22 +24,37 @@
 		<script src="js/respond.min.js"></script>
 	<![endif]-->
 </head>
-<body>
+<header>
 	<!-- #site-navigation -->
 	<nav id="site-navigation" class="main-nav" role="navigation">
-		<div class="topnav" id="myTopnav">
+		<!-- <button class="hamburger hamburger--collapse" id="navBurger" type="button"> 
+			<span class="hamburger-box"> 
+				<span class="hamburger-inner"></span>
+			</span>
+		</button> -->
+		<div class="logo-section">
+			<a class="logo">LOGO</a>
 			<button class="hamburger hamburger--collapse" id="navBurger" type="button"> 
 				<span class="hamburger-box"> 
 					<span class="hamburger-inner"></span>
 				</span>
 			</button>
+			</div>
+			<ul>
+				<li><a id="Home" href="file:///Users/christopherpanetta/Documents/code/Personal/index.html">Home</a></li>
+				<li><a id="Projects" href="file:///Users/christopherpanetta/Documents/code/Personal/Projects.html">Projects</a></li>
+				<li><a id="Testing" href="href=file:///Users/christopherpanetta/Documents/code/Personal/testing.html">Testing</a></li>
+			</ul>
+		<!-- <div class="topnav" id="myTopnav">
 			<a id="Home" href="file:///Users/christopherpanetta/Documents/code/Personal/index.html">Home</a>
 			<a id="Projects" href="file:///Users/christopherpanetta/Documents/code/Personal/Projects.html">Projects</a>
 			<a id="Testing" href=file:///Users/christopherpanetta/Documents/code/Personal/testing.html>Testing</a>
 			<div class="dropdown">
 			</div> 
-		</div>
+		</div> -->
 	</nav>
+</header>
+<body>
 	<div class=main>
 		<div class="main-text">
 			<h1> Christopher Panetta </h1>
@@ -52,18 +67,13 @@
 			<h2 class="title"> About</h2>
 			<p>Hi there! This is a place for me to showcase myself, my work and my skills as a developer. Have a look around at my previous projects or what im currently working on.</p>
 		</div>
-
-		<div class="about-timeline">
-			<!-- Timeline is to be added showing education and expereince-->
-		</div>
 	</div>
 	<div class="info-Block">
 		<div class="info-Block-Text">
 			<h2 class="title">What's Next?</h2>
 			<p>So what's next for me and this site? Well personally I have a degree to finish however this site here is taking up quite a bit of creative focus. </p>
 			<br>
-			<p>This site was designed to quickly create a place where I could put my skills together and actually create something. unfortunatly that means its quite basic. The goal now is to change this from being a website to more of a "web app", adding repsonsiveness to it. We'll see what happens in the coming months. 
-			</p>
+			<p>This site was designed to quickly create a place where I could put my skills together and actually create something. unfortunatly that means its quite basic. The goal now is to change this from being a website to more of a "web app", adding repsonsiveness to it. We'll see what happens in the coming months. </p>
 		</div>
 	</div>
 	<footer class="ContactDetails">
@@ -79,6 +89,10 @@
 			<p>Ⓒ Christopher Panetta 2018. All Rights Reserved</p>
 		</div> 
 	</footer>
+	<!-- jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- personal scripts -->
 	<script src="js/personal.js"></script>
+
 </body>
 </html>
